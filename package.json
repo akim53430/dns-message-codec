@@ -1,0 +1,17 @@
+{
+  "name": "dns-message-codec",
+  "version": "0.1.0",
+  "description": "Encodes and decodes DNS wire-format messages including header, question, answer, authority, and additional sections.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {}
+}
